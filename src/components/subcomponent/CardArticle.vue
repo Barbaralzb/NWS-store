@@ -1,5 +1,5 @@
 <template>
-    <div class="shadow-lg bg-white rounded-lg relative">
+    <div class="shadow-lg bg-white rounded-lg relative w-full h-full">
         <div
             v-show="flag"
             class="rounded-full w-12 h-12 bg-rose-600 rotate-12 absolute top-0 right-0 flex justify-center items-center"
@@ -16,7 +16,7 @@
                 <h3 class="mr-2">{{ titre }}</h3>
                 <span class="text-normal">{{ prix }}</span>
             </div>
-            <div>
+            <div class="flex items-end">
                 <p class="text-sm">{{ description }}</p>
             </div>
         </div>
